@@ -1,0 +1,35 @@
+:root{
+  --sky:#87ceeb;
+}
+
+html,body{
+  height:100%;
+  margin:0;
+  font-family:system-ui,Arial;
+  background:var(--sky);
+}
+
+#gameCanvas{
+  display:block;
+  margin:0 auto;
+  background:linear-gradient(#bfe9ff,#87ceeb);
+}
+
+.controls{
+  position:fixed;
+  right:12px;
+  top:12px;
+  background:white;
+  padding:8px;
+  border-radius:8px;
+}
+
+.credits{
+  position:fixed;
+  left:12px;
+  bottom:8px;
+  background:white;
+  padding:6px;
+  border-radius:6px;
+  font-size:12px;
+}
